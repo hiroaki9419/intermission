@@ -7,5 +7,5 @@ import org.apache.ibatis.session.SqlSession;
 import com.homepage.dto.Members;
 
 public interface MemberDao {
-	Members save(Members members);
+	Members join(Members members);
 }

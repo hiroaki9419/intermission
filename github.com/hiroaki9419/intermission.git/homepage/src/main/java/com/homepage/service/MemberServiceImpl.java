@@ -20,7 +20,7 @@ public class MemberServiceImpl implements MemberService{
 	public Members join(Members member) {
 		Members members = null;
 		try {
-			members = mDao.save(member);
+			members = mDao.join(member);
 		}catch(Exception e) {
 			mylog.error("회원 가입 실패: ", e);
 		}

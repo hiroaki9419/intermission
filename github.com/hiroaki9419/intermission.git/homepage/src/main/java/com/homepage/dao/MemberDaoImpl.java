@@ -17,8 +17,8 @@ public class MemberDaoImpl implements MemberDao{
 	SqlSessionTemplate session;
 
 	@Override
-	public Members save(Members members) {
-		String statement = ns+"save";
+	public Members join(Members members) {
+		String statement = ns+"join";
 		int result = session.insert(statement, members);
 		if(result==1) {
 			return members;
