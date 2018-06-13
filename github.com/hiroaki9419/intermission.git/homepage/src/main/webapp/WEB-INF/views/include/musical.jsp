@@ -14,11 +14,13 @@
 	text-align: center;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .musical_box>div {
 	background-color: #f1f1f1;
-	width: 200px;
+	width: 25%;
+	height: 
 	margin: 10px;
 	text-align: center;
 	line-height: 75px;
@@ -35,23 +37,7 @@
 		<div>4</div>
 		<div>5</div>
 		<div>6</div>
-		<div>7</div>
-		<div>8</div>
-		<div>9</div>
-		<div>10</div>
-		<div>11</div>
-		<div>12</div>
-		<div>12</div>
-		<div>2</div>
-		<div>3</div>
-		<div>4</div>
-		<div>5</div>
-		<div>6</div>
-		<div>7</div>
-		<div>8</div>
-		<div>9</div>
-		<div>10</div>
-		<div>11</div>
+	
 	</div>
 
 	<jsp:include page="scroll.jsp"></jsp:include><!-- 스크롤 -->
