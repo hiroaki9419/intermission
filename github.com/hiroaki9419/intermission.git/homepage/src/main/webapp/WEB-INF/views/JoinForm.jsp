@@ -9,10 +9,12 @@
 
 <body>
 <form action="join1">
-<input type="text" id="name" name="name">
-
-
-<input type="submit">
+<input type="text" id="userId" name="userId" placeholder="아이디를 입력하세요"></br>
+<input type="text" id="userName" name="userName" placeholder="이름을 입력하세요"></br>
+<input type="text" id="userPassword" name="userPassword" placeholder="비밀번호를 입력하세요"></br>
+<input type="text" id="userEmail" name="userEmail" placeholder="이메일을 입력하세요"></br>
+<input type="text" id="userPicture" name="userPicture" placeholder="사진을 등록하세요"></br>
+<input type="submit" value="Join">
 </form>
 </body>
 </html>
