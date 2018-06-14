@@ -6,7 +6,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
+
 <body>
-asdfasdf
+<form action="join1">
+<input type="text" id="name" name="name">
+
+
+<input type="submit">
+</form>
 </body>
 </html>
