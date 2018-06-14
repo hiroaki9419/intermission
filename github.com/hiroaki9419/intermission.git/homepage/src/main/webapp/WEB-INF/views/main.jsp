@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>INTERMISSION</title>
 </head>
 <body>
 <jsp:include page="include/header.jsp"></jsp:include><!-- 헤더 -->
