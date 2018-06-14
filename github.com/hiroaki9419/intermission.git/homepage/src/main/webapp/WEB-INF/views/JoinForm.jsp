@@ -8,6 +8,7 @@
 </head>
 
 <body>
+
 <form action="join1">
 <input type="text" id="userId" name="userId" placeholder="아이디를 입력하세요"></br>
 <input type="text" id="userName" name="userName" placeholder="이름을 입력하세요"></br>

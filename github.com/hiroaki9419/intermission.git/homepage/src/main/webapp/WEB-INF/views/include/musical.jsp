@@ -6,40 +6,39 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
-<style>
-.musical_box {
-	background-color: gray;
-	width: 80%;
-	margin: 0 auto;
-	text-align: center;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.musical_box>div {
-	background-color: #f1f1f1;
-	width: 25%;
-	height: 
-	margin: 10px;
-	text-align: center;
-	line-height: 75px;
-	font-size: 30px;
-}
-
-</style>
-
+<link rel="stylesheet"
+	href="<%=request.getContextPath()%>/css/musical.css">
 <body>
 	<div class="musical_box">
-		<div>1</div>
-		<div>2</div>
-		<div>3</div>
-		<div>4</div>
-		<div>5</div>
-		<div>6</div>
-	
+		<div class="poster">
+			<img src="img/test1.jpg" class="img" >
+			<div class="overlay">
+				<div class="contents">브라더스 카라마조프ddddddddd</div>
+			</div>
+		</div>
+		<div class="poster">
+			<img src="img/test2.jpg" class="img">
+			<div class="overlay">뮤지컬이름</div>
+		</div>
+		<div class="poster">
+			<img src="img/test3.jpg" class="img">
+			<div class="overlay">뮤지컬이름</div>
+		</div>
+		<div class="poster">
+			<img src="img/test4.jpg" class="img">
+			<div class="overlay">뮤지컬이름</div>
+		</div>
+		<div class="poster">
+			<img src="img/test5.jpg" class="img">
+			<div class="overlay">뮤지컬이름</div>
+		</div>
+		<div class="poster">
+			<img src="img/test6.jpg" class="img">
+			<div class="overlay">뮤지컬이름</div>
+		</div>
 	</div>
 
 	<jsp:include page="scroll.jsp"></jsp:include><!-- 스크롤 -->
+	
 </body>
 </html>

@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-음 푸터에 뭘 넣어야 할까 잘 모르겠네
+
 </body>
 </html>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>INTERMISSION</title>
 </head>
 <body>
 <jsp:include page="include/header.jsp"></jsp:include><!-- 헤더 -->
@@ -13,6 +13,5 @@
 <jsp:include page="include/current.jsp"></jsp:include><!-- 현재상영작 -->
 <jsp:include page="include/scroll.jsp"></jsp:include><!-- 스크롤 -->	
 <jsp:include page="include/footer.jsp"></jsp:include><!-- 풋터 -->	
-
 </body>
 </html>
