@@ -13,6 +13,5 @@
 <jsp:include page="include/current.jsp"></jsp:include><!-- 현재상영작 -->
 <jsp:include page="include/scroll.jsp"></jsp:include><!-- 스크롤 -->	
 <jsp:include page="include/footer.jsp"></jsp:include><!-- 풋터 -->	
-
 </body>
 </html>

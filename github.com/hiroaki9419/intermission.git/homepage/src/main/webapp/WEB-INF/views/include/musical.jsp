@@ -10,10 +10,10 @@
 	href="<%=request.getContextPath()%>/css/musical.css">
 <body>
 	<div class="musical_box">
-		<div class="poster" id="poster1">
+		<div class="poster">
 			<img src="img/test1.jpg" class="img" >
 			<div class="overlay">
-				<div class="contents">포스터1</div>
+				<div class="contents">브라더스 카라마조프ddddddddd</div>
 			</div>
 		</div>
 		<div class="poster">
